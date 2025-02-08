@@ -1,5 +1,5 @@
 
-const webSite='https://wogg.xxooo.cf';
+const webSite='https://wogg.xxooo.lol';
 
 async function toast(msg, seconds = 2) {
     await sendMessage('toast', JSON.stringify({ msg: msg, seconds: seconds }));
